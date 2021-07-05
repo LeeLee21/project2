@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'open_sans_condensedlight';
+    src: url('fonts/opensans/opensanscondensed-light-webfont.woff2') format('woff2'),
+         url('fonts/opensans/opensanscondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 230px;
+    background-color: #dcdcdc;   
+}
+.headercontent {
+    margin: 0 auto 0 auto;
+    width: 980px;
+    padding: 0 10px;
+    display: flex;
+}
+.logo {
+    width: 273px;
+    height: 100px;
+    background-color: #dcdcdc;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.numbers {
+    width: 256px;   
+    height: 81px;
+    margin-top: 77px;
+    margin-bottom: 72px;
+    margin-left: 723px;
+    color: #767676;
+    font-family: "open_sans_condensedlight";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    
+}
+.call {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 35px;
+    margin-left: 0px;
+}
+.menu {
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #777777;
+}
+.menulist {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    list-style-type: none;
+    width: 902px;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    padding: 0px;
+}
+.menulist a {
+    color: white;
+    text-decoration: none;
+
+}
+.menulist a:hover {
+    border-bottom: 2px solid white;
+}
+.menulist li:not(:first-child):before {
+    content: " | ";
+    color: white;
+}
+.slider {
+    width: 100%;
+    height: 400px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow-x: hidden;
+}
+.imgslider {
+    width: 1248px;
+    height: 462px;
+}
+.content {
+    width: 980px;
+    height: 560px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.news {
+    width: 350px;
+    background-color: #767676;
+    padding-bottom: 100px;
+}
+.about {
+    width: 570px;
+    height: 493px;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    word-break: break-all;
+
+}
+.title {
+    font-family: "PT Sans";
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: #767676;
+    margin-top: 20px;
+    
+
+}
+.paragraph {
+    color: #767676;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+.newstitle {
+    color: white;
+    font-family: "PT Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    margin-left: 36px;
+}
+.newspage {
+    font-family: "PT Sans";
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    margin-left: 36px;
+    width: 265px;
+    word-break: break-all;
+}
+.datanews {
+    font-style: italic;
+    margin-block-end: 0;
+    margin-block-start: 1em;
+}
+.linknews{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.newsarchive {
+    padding-left: 205px;
+    padding-top: 10px;
+    text-decoration: underline;
+    font-family: "PT Sans";
+}
+.news a {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    background-color: #767676;
+    margin: 195px auto 0 auto;
+    width: 100%;
+    height: 220px;
+}
+.footercontent {
+    width: 980px;
+    height: 220px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    color: white;
+}
+.copyright {
+    margin: 50px auto auto 0;
+    width: 200px;
+    height: 35px;
+    font-family: "PT Sans";
+}
+.copyrighttxt {
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 0px;
+}
+.footermenu {
+    margin: 50px auto auto 350px;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    width: 119px;
+    height: 117px;
+    font-size: 14px;
+    font-family: "PT Sans";
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: underline;
+}
+.footermenu a {
+    position: absolute;
+    text-decoration: underline;
+    color: white;
+    list-style-type: none;
+}
+.logocompany {
+    width: 36px;
+    height: 38px;
+    margin-top: 50px;
+    margin-right: 9px;
+    
+}
+.pixelplus {
+    width: 170px;
+    height: 33px;
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 49px;
+}
+.developer {
+    display: flex;
+    flex-direction: row;
+}
